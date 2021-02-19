@@ -57,6 +57,7 @@ function askQuestion() {
     else{
       console.log(">>> Status: FAILED");
     }
+    grade = gradePercent;
     return grade;
   }
 
